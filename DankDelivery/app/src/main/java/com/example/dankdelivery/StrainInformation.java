@@ -18,40 +18,25 @@ public class StrainInformation extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-<<<<<<< Updated upstream
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Strain Information");
 
-            }
-        }
-=======
-//        Button btn_Checkout = (Button)findViewById(R.id.checkout);
-//        btn_Checkout.setOnClickListener(new View.OnClickListener(){
-//            @Override
-//            public void onClick(View v){
-//                openCheckout();
-//            }
-//
-//        });
-
-//      textView_about.setMovementMethod(new ScrollingMovementMethod());
-
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        Button button_checkout = (Button)findViewById(R.id.checkout);
+        button_checkout.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v){
+                openCart();
             }
+
         });
 
-
     }
-//    public void openCheckout(){
-//        Intent intent = new Intent(this,Checkout.class);
-//        startActivity(intent);
-//    }
+    public void openCart(){
+        Intent intent = new Intent(this,Cart.class);
+        startActivity(intent);
+    }
+
 }
->>>>>>> Stashed changes
+
