@@ -25,19 +25,33 @@ public class StrainsNearYou extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Strains Near You");
 
-        ImageButton btn_strain1 = (ImageButton)findViewById(R.id.button_Strain1);
+        ImageButton btn_strain1 = (ImageButton) findViewById(R.id.button_Strain1);
 
-        btn_strain1.setOnClickListener(new View.OnClickListener(){
+        Button btn_filter = (Button) findViewById(R.id.button_Filter);
+
+
+        btn_strain1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 openStrainInformation();
             }
         });
 
+        btn_filter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openFilterResults();
+            }
+        });
     }
 
     private void openStrainInformation() {
-            Intent intent = new Intent(StrainsNearYou.this, StrainInformation.class);
-            startActivity(intent);
-            }
+        Intent intent = new Intent(StrainsNearYou.this, StrainInformation.class);
+        startActivity(intent);
+    }
+
+    private void openFilterResults(){
+        Intent intent = new Intent(StrainsNearYou.this, FiltersPage.class);
+        startActivity(intent);
+    }
 }
