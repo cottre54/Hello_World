@@ -10,8 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+
+            android:name=".Cart"
+            android:label="@string/title_activity_cart"
+
             android:name=".OrderPlaced"
             android:label="@string/title_activity_order_placed"
+
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".FiltersPage"
