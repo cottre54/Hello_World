@@ -16,7 +16,8 @@ public class Address_Page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_address__page);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar);}}
+
 
         configureNextButton();
     }
@@ -30,3 +31,4 @@ public class Address_Page extends AppCompatActivity {
         });
     }
 }
+
