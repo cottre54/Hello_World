@@ -19,3 +19,16 @@ public class Address_Page extends AppCompatActivity {
         setSupportActionBar(toolbar);}}
 
 
+        configureNextButton();
+    }
+    private void configureNextButton() {
+        Button nextButton = (Button) findViewById(R.id.button_FindStrainsNearYou);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Address_Page.this, StrainsNearYou.class));
+            }
+        });
+    }
+}
+
