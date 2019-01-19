@@ -19,8 +19,8 @@
         android:text="Strain 2 "
         app:layout_constraintBottom_toTopOf="@+id/button_Strain3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton_strain2"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton_strain1" />
+        app:layout_constraintStart_toEndOf="@+id/imageButton_Strain2"
+        app:layout_constraintTop_toBottomOf="@+id/button_Strain1" />
 
     <Button
         android:id="@+id/button_Strain3"
@@ -31,101 +31,114 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="Strain 3"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton_strain4"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton_Strain4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton_strain3"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_Strain3"
         app:layout_constraintTop_toBottomOf="@+id/button_Strain2" />
 
     <Button
-        android:id="@+id/button_strain4"
+        android:id="@+id/button_Strain4"
         android:layout_width="298dp"
         android:layout_height="78dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:text="Strain 4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton_strain4"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_Strain4"
         app:layout_constraintTop_toBottomOf="@+id/button_Strain3" />
 
     <ImageButton
-        android:id="@+id/imageButton_strain3"
+        android:id="@+id/imageButton_Strain3"
         android:layout_width="76dp"
         android:layout_height="79dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton_strain4"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton_Strain4"
         app:layout_constraintEnd_toStartOf="@+id/button_Strain3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton_strain2"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_Strain2"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
-        android:id="@+id/imageButton_strain4"
+        android:id="@+id/imageButton_Strain4"
         android:layout_width="76dp"
         android:layout_height="79dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button_strain4"
+        app:layout_constraintEnd_toStartOf="@+id/button_Strain4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton_strain3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_Strain3"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
-        android:id="@+id/imageButton_strain2"
+        android:id="@+id/imageButton_Strain2"
         android:layout_width="76dp"
         android:layout_height="79dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton_strain3"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton_Strain3"
         app:layout_constraintEnd_toStartOf="@+id/button_Strain2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton_strain1"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_Strain1"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
-        android:id="@+id/imageButton_strain1"
+        android:id="@+id/imageButton_Strain1"
         android:layout_width="76dp"
         android:layout_height="79dp"
+        android:layout_marginTop="110dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/button_strain1"
-        tools:layout_editor_absoluteY="138dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_Strain1"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
-        android:id="@+id/button_strain1"
+        android:id="@+id/button_Strain1"
         android:layout_width="298dp"
         android:layout_height="78dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
         android:text="Strain 1 "
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="139dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="153dp"
         android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:text="Strains Near You"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_refine"
+        android:id="@+id/button_Refine"
         android:layout_width="125dp"
         android:layout_height="57dp"
+        android:layout_marginStart="286dp"
+        android:layout_marginLeft="286dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="8dp"
         android:text="Refine Search"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="262dp"
-        tools:layout_editor_absoluteY="27dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_Strain1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
