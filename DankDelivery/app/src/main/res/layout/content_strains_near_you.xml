@@ -12,56 +12,94 @@
         android:id="@+id/button_Strain2"
         android:layout_width="298dp"
         android:layout_height="78dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Strain 2 "
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="245dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_Strain3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_strain2"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_strain1" />
 
     <Button
         android:id="@+id/button_Strain3"
         android:layout_width="298dp"
         android:layout_height="78dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Strain 3"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="378dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageButton_strain4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_strain3"
+        app:layout_constraintTop_toBottomOf="@+id/button_Strain2" />
 
     <Button
         android:id="@+id/button_strain4"
         android:layout_width="298dp"
         android:layout_height="78dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Strain 4"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="514dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_strain4"
+        app:layout_constraintTop_toBottomOf="@+id/button_Strain3" />
 
     <ImageButton
         android:id="@+id/imageButton_strain3"
         android:layout_width="76dp"
         android:layout_height="79dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="378dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton_strain4"
+        app:layout_constraintEnd_toStartOf="@+id/button_Strain3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_strain2"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/imageButton_strain4"
         android:layout_width="76dp"
         android:layout_height="79dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="513dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_strain4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_strain3"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/imageButton_strain2"
         android:layout_width="76dp"
         android:layout_height="79dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="245dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton_strain3"
+        app:layout_constraintEnd_toStartOf="@+id/button_Strain2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_strain1"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/imageButton_strain1"
         android:layout_width="76dp"
         android:layout_height="79dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="111dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_strain1"
+        tools:layout_editor_absoluteY="138dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
@@ -69,8 +107,8 @@
         android:layout_width="298dp"
         android:layout_height="78dp"
         android:text="Strain 1 "
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="112dp" />
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="139dp" />
 
     <TextView
         android:id="@+id/textView"
