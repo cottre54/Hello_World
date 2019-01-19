@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class StrainsNearYou extends AppCompatActivity {
 
@@ -24,7 +25,7 @@ public class StrainsNearYou extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Strains Near You");
 
-        Button btn_strain1 = (Button)findViewById(R.id.button_Strain1);
+        ImageButton btn_strain1 = (ImageButton)findViewById(R.id.button_Strain1);
 
         btn_strain1.setOnClickListener(new View.OnClickListener(){
             @Override
