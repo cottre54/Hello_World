@@ -18,7 +18,7 @@ public class StrainsNearYou extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Button btn_strain1 = (Button)findViewById(R.id.button_strain1);
+        Button btn_strain1 = (Button)findViewById(R.id.button_Strain1);
 
         btn_strain1.setOnClickListener(new View.OnClickListener(){
             @Override
