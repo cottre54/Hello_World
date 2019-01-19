@@ -11,6 +11,7 @@
     <TextView
         android:id="@+id/textView_Reviews"
         android:layout_width="99dp"
+<<<<<<< Updated upstream
         android:layout_height="22dp"
         android:layout_marginStart="29dp"
         android:layout_marginLeft="29dp"
@@ -24,20 +25,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_About" />
+=======
+        android:layout_height="23dp"
+        android:text="Reviews"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="421dp" />
+>>>>>>> Stashed changes
 
     <TextView
         android:id="@+id/textView_StrainName"
         android:layout_width="353dp"
         android:layout_height="46dp"
+<<<<<<< Updated upstream
         android:layout_marginTop="88dp"
         android:layout_marginBottom="70dp"
         android:text="Strain Name"
+=======
+        android:text="Girl Scout Cookies"
+>>>>>>> Stashed changes
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView_About"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< Updated upstream
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -56,5 +68,36 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_StrainName" />
+=======
+        tools:layout_editor_absoluteY="158dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="316dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/gsc_weed"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView_about"
+        android:layout_width="300dp"
+        android:layout_height="106dp"
+        android:scrollbars="vertical"
+        android:text="GSC, formerly known as Girl Scout Cookies, is an OG Kush and Durban Poison hybrid cross whose reputation grew too large to stay within the borders of its California homeland. With a sweet and earthy aroma, GSC launches you to euphoria’s top floor where full-body relaxation meets a time-bending cerebral space. A little goes a long way with this hybrid, whose THC heights have won GSC numerous Cannabis Cup awards. Patients needing a strong dose of relief, however, may look to GSC for severe pain, nausea, and appetite loss."
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkout"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+>>>>>>> Stashed changes
 
 </android.support.constraint.ConstraintLayout>
