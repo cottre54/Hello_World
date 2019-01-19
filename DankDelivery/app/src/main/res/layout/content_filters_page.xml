@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FiltersPage"
+    tools:showIn="@layout/activity_filters_page">
+
+    <TextView
+        android:id="@+id/textView_Filters"
+        android:layout_width="109dp"
+        android:layout_height="56dp"
+        android:text="Filters"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/textView_straintype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <TextView
+        android:id="@+id/textView_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <TextView
+        android:id="@+id/textView_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Indica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indica"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Sativa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sativa"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Hybrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hybrid"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_cheap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Moderate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$$"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Expensive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$$$"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_5miles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0-5mi"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_15miles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6-15mi"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_25miles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More than 15mi"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="440dp" />
+</android.support.constraint.ConstraintLayout>
