@@ -27,20 +27,10 @@ public class StrainsNearYou extends AppCompatActivity {
             }
         });
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
     }
 
     private void openStrainInformation() {
             Intent intent = new Intent(StrainsNearYou.this, StrainInformation.class);
             startActivity(intent);
-    }
-
+            }
 }

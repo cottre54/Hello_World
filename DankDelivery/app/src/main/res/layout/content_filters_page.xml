@@ -12,117 +12,156 @@
         android:id="@+id/textView_Filters"
         android:layout_width="109dp"
         android:layout_height="56dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginRight="286dp"
         android:text="Filters"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="27dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView_straintype"
+        android:id="@+id/textView_StrainType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="343dp"
+        android:layout_marginRight="343dp"
         android:text="Type"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="108dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Filters" />
 
     <TextView
-        android:id="@+id/textView_cost"
+        android:id="@+id/textView_Cost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="345dp"
+        android:layout_marginRight="345dp"
         android:text="Cost"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="243dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Indica" />
 
     <TextView
-        android:id="@+id/textView_distance"
+        android:id="@+id/textView_Distance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginRight="302dp"
         android:text="Distance"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="384dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Cheap" />
 
     <CheckBox
         android:id="@+id/checkBox_Indica"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
         android:text="Indica"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintEnd_toStartOf="@+id/checkBox_Sativa"
+        app:layout_constraintTop_toBottomOf="@+id/textView_StrainType" />
 
     <CheckBox
         android:id="@+id/checkBox_Sativa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
         android:text="Sativa"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintEnd_toStartOf="@+id/checkBox_Hybrid"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
         android:id="@+id/checkBox_Hybrid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         android:text="Hybrid"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
-        android:id="@+id/checkBox_cheap"
+        android:id="@+id/checkBox_Cheap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
         android:text="$"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="297dp" />
+        app:layout_constraintEnd_toStartOf="@+id/checkBox_Moderate"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Cost" />
 
     <CheckBox
         android:id="@+id/checkBox_Moderate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
         android:text="$$"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="297dp" />
+        app:layout_constraintEnd_toStartOf="@+id/checkBox_Expensive"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Sativa" />
 
     <CheckBox
         android:id="@+id/checkBox_Expensive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
         android:text="$$$"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="297dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Hybrid" />
 
     <CheckBox
         android:id="@+id/checkBox_5miles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
         android:text="0-5mi"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="440dp" />
+        app:layout_constraintEnd_toStartOf="@+id/checkBox_15miles"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Distance" />
 
     <CheckBox
         android:id="@+id/checkBox_15miles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
         android:text="6-15mi"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="440dp" />
+        app:layout_constraintEnd_toStartOf="@+id/checkBox_25miles"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Moderate" />
 
     <CheckBox
         android:id="@+id/checkBox_25miles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:text="More than 15mi"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="440dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Expensive" />
 </android.support.constraint.ConstraintLayout>
