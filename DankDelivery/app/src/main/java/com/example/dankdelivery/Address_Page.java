@@ -20,15 +20,26 @@ public class Address_Page extends AppCompatActivity {
 
 
         configureNextButton();
+
     }
     private void configureNextButton() {
         Button nextButton = (Button) findViewById(R.id.button_FindStrainsNearYou);
+        Button sellerButton = (Button) findViewById(R.id.sellerButton);
+
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Address_Page.this, StrainsNearYou.class));
             }
         });
+
+        sellerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Address_Page.this, SellerSignIn.class));
+            }
+        });
+
     }
 }
 

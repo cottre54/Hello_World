@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+
+            android:name=".SellerSignIn"
+            android:label="@string/title_activity_seller_sign_in"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
             android:name=".Cart"
             android:label="Cart"
             android:theme="@style/AppTheme.NoActionBar"/>
@@ -17,6 +22,7 @@
             android:name=".OrderPlaced"
             android:label="OrderPlaced"
             android:theme="@style/AppTheme.NoActionBar"/>
+
         <activity
             android:name=".FiltersPage"
             android:label="@string/title_activity_filters_page"
@@ -24,13 +30,13 @@
         <activity
             android:name=".StrainInformation"
             android:label="@string/title_activity_strain_information"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".StrainsNearYou"/>
+            android:parentActivityName=".StrainsNearYou"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".StrainsNearYou"
             android:label="@string/title_activity_strains_near_you"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".Address_Page"/>
+            android:parentActivityName=".Address_Page"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Address_Page"
             android:label="@string/title_activity_address__page"
