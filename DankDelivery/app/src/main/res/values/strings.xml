@@ -6,5 +6,11 @@
     <string name="title_activity_strains_near_you">StrainsNearYou</string>
     <string name="title_activity_strain_information">StrainInformation</string>
     <string name="title_activity_filters_page">FiltersPage</string>
+
     <string name="title_activity_seller_sign_in">SellerSignIn</string>
+
+    <string name="title_activity_cart">Cart</string>
+
+    <string name="title_activity_order_placed">OrderPlaced</string>
+
 </resources>
