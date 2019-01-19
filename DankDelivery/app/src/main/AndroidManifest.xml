@@ -16,11 +16,13 @@
         <activity
             android:name=".StrainInformation"
             android:label="@string/title_activity_strain_information"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".StrainsNearYou"/>
         <activity
             android:name=".StrainsNearYou"
             android:label="@string/title_activity_strains_near_you"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Address_Page"/>
         <activity
             android:name=".Address_Page"
             android:label="@string/title_activity_address__page"
