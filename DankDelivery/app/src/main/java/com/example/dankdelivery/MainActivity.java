@@ -1,5 +1,6 @@
 package com.example.dankdelivery;
 
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,6 +11,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.content.Intent;
+import android.util.Log;
+
+
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,16 +27,30 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn_LetsGo = (Button)findViewById(R.id.button_LetsGo);
 
+        //if(isServicesOk()){
+        //    init();
+        //}
+
         btn_LetsGo.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 openAddressPage();
             }
-
         });
-
-
     }
+
+//    private void init(){
+//        Button btn_map = (Button)findViewById(R.id.button_map);
+//
+//        btn_map.setOnClickListener(new View.OnClickListener(){
+//
+//            @Override
+//            public void onClick(View v){
+//                Intent intent = new Intent(MainActivity.this, MapActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+//    }
 
 
 
