@@ -52,7 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/gsc_weed" />
+        app:srcCompat="@drawable/sd" />
 
     <TextView
         android:id="@+id/textView_about"
@@ -61,7 +61,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="51dp"
         android:scrollbars="vertical"
-        android:text="0.GSC, formerly known as Girl Scout Cookies, is an OG Kush and Durban Poison hybrid cross whose reputation grew too large to stay within the borders of its California homeland. With a sweet and earthy aroma, GSC launches you to euphoria’s top floor where full-body relaxation meets a time-bending cerebral space. A little goes a long way with this hybrid, whose THC heights have won GSC numerous Cannabis Cup awards. Patients needing a strong dose of relief, however, may look to GSC for severe pain, nausea, and appetite loss."
+        android:text="Sour Diesel, sometimes called Sour D, is an invigorating sativa-dominant strain named after its pungent, diesel-like aroma. This fast-acting strain delivers energizing, dreamy cerebral effects that have pushed Sour Diesel to its legendary status. Stress, pain, and depression fade away in long-lasting relief that makes Sour Diesel a top choice among medical patients. This strain took root in the early 90's, and it is believed to have descended from Chemdawg 91 and Super Skunk."
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/textView_Reviews"
         app:layout_constraintEnd_toEndOf="parent"
@@ -97,27 +97,11 @@
         android:layout_marginEnd="302dp"
         android:layout_marginRight="302dp"
         android:layout_marginBottom="8dp"
-        android:text="Doctor Dope"
+        android:text="No reviews yet"
         app:layout_constraintBottom_toTopOf="@+id/textView13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_Reviews" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="323dp"
-        android:layout_height="78dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginLeft="29dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginRight="59dp"
-        android:layout_marginBottom="30dp"
-        android:text="This is one of my all time favorite strands! I smoke almost every day and it makes me goofy and happy. I would highly suggest using this strain for pain relief."
-        app:layout_constraintBottom_toTopOf="@+id/checkout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
 
 </android.support.constraint.ConstraintLayout>

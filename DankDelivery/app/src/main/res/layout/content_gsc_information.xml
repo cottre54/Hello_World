@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".GSCInformation"
-    tools:showIn="@layout/activity_GSC_information">
+    tools:showIn="@layout/activity_gsc_information">
 
     <TextView
         android:id="@+id/textView_Reviews"
@@ -71,7 +71,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="51dp"
         android:scrollbars="vertical"
-        android:text="1. GSC, formerly known as Girl Scout Cookies, is an OG Kush and Durban Poison hybrid cross whose reputation grew too large to stay within the borders of its California homeland. With a sweet and earthy aroma, GSC launches you to euphoria’s top floor where full-body relaxation meets a time-bending cerebral space. A little goes a long way with this hybrid, whose THC heights have won GSC numerous Cannabis Cup awards. Patients needing a strong dose of relief, however, may look to GSC for severe pain, nausea, and appetite loss."
+        android:text="GSC, formerly known as Girl Scout Cookies, is an OG Kush and Durban Poison hybrid cross whose reputation grew too large to stay within the borders of its California homeland. With a sweet and earthy aroma, GSC launches you to euphoria’s top floor where full-body relaxation meets a time-bending cerebral space. A little goes a long way with this hybrid, whose THC heights have won GSC numerous Cannabis Cup awards. Patients needing a strong dose of relief, however, may look to GSC for severe pain, nausea, and appetite loss."
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/textView_Reviews"
         app:layout_constraintEnd_toEndOf="parent"
