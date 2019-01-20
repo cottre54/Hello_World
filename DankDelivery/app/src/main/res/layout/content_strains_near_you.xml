@@ -106,7 +106,7 @@
 
             <ImageButton
                 android:id="@+id/button_Strain5"
-                android:layout_width="match_parent"
+                android:layout_width="375dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
@@ -120,7 +120,7 @@
 
             <ImageButton
                 android:id="@+id/button_Strain4"
-                android:layout_width="match_parent"
+                android:layout_width="375dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
