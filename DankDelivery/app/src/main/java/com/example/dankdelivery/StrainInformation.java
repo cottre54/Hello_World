@@ -32,6 +32,7 @@ public class StrainInformation extends AppCompatActivity {
 
         });
 
+
     }
     public void openCart(){
         Intent intent = new Intent(this,Cart.class);
