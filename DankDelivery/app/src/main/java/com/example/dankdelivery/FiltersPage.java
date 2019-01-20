@@ -15,7 +15,7 @@ public class FiltersPage extends AppCompatActivity {
         setContentView(R.layout.activity_filters_page);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         }
     }
