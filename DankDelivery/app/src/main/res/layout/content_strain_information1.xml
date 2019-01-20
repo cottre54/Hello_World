@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".StrainInformation"
-    tools:showIn="@layout/activity_strain_information">
+    tools:context=".StrainInformation1"
+    tools:showIn="@layout/activity_strain_information1">
 
     <TextView
         android:id="@+id/textView_Reviews"
@@ -96,6 +96,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_about"
         app:layout_constraintVertical_bias="0.662" />
-
-
 </android.support.constraint.ConstraintLayout>
