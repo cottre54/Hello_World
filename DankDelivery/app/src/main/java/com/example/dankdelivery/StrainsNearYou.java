@@ -57,12 +57,17 @@ public class StrainsNearYou extends AppCompatActivity {
                 openFilterResults();
             }
         });
+
         Intent intent = getIntent();
         String text = ((Intent) intent).getStringExtra(Address_Page.EXTRA_TEXT);
 
         TextView textView1 = (TextView) findViewById(R.id.textView);
-
-        textView1.setText("Strains near " +text);
+        if(text ==  null){
+            textView1.setText("Strains near you");
+        }
+        else{
+            textView1.setText("Strains near " + text);
+        }
     }
 
     private void openStrainInformation() {

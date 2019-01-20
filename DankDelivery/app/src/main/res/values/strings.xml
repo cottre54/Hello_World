@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">DankDelivery</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_login__screen">Login_Screen</string>
-    <string name="title_activity_address__page">Address_Page</string>
+    <string name="title_activity_login__screen">LoginScreen</string>
+    <string name="title_activity_address__page">Address Page</string>
     <string name="title_activity_strains_near_you">StrainsNearYou</string>
     <string name="title_activity_strain_information">StrainInformation</string>
-    <string name="title_activity_filters_page">FiltersPage</string>
+    <string name="title_activity_filters_page">Filters</string>
 
-    <string name="title_activity_seller_sign_in">SellerSignIn</string>
+    <string name="title_activity_seller_sign_in">Seller Sign In</string>
 
     <string name="title_activity_cart">Cart</string>
 

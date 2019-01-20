@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dankdelivery">
 
+   <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +14,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA5l2730VNpmKkCEUfkNTXuCwhkDAfieGw"
+            />
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity
             android:name=".StrainInformation1"
             android:label="@string/title_activity_strain_information1"
@@ -22,7 +38,9 @@
         <activity
             android:name=".SellerSignIn"
             android:label="@string/title_activity_seller_sign_in"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Address_Page"/>
+
         <activity
             android:name=".Cart"
             android:label="Cart"
@@ -35,7 +53,9 @@
         <activity
             android:name=".FiltersPage"
             android:label="@string/title_activity_filters_page"
+            android:parentActivityName=".StrainsNearYou"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".StrainInformation"
             android:label="@string/title_activity_strain_information"
@@ -60,6 +80,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
     </application>
 
 </manifest>
