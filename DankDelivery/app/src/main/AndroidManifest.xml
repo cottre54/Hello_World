@@ -13,11 +13,13 @@
 
             android:name=".SellerSignIn"
             android:label="@string/title_activity_seller_sign_in"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
 
+        <activity
             android:name=".Cart"
             android:label="Cart"
             android:theme="@style/AppTheme.NoActionBar"/>
+
         <activity
             android:name=".OrderPlaced"
             android:label="OrderPlaced"
