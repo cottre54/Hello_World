@@ -28,7 +28,9 @@
         <activity
             android:name=".FiltersPage"
             android:label="@string/title_activity_filters_page"
+            android:parentActivityName=".StrainsNearYou"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".StrainInformation"
             android:label="@string/title_activity_strain_information"
