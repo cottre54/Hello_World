@@ -85,7 +85,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginRight="20dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/bd"
+                android:src="@drawable/ds"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button_Strain2" />
@@ -99,7 +99,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginRight="20dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/ds"
+                android:src="@drawable/bd"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button_Strain" />
@@ -113,7 +113,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginRight="20dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/ds"
+                android:src="@drawable/gdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button_Strain" />
@@ -127,7 +127,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginRight="20dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/ds"
+                android:src="@drawable/lh"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button_Strain" />
