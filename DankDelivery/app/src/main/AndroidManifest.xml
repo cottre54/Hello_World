@@ -39,10 +39,10 @@
         <activity
             android:name=".StrainsNearYou"
             android:label="@string/title_activity_strains_near_you"
-            android:parentActivityName=".Address_Page"
+            android:parentActivityName=".AddressPage"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Address_Page"
+            android:name=".AddressPage"
             android:label="@string/title_activity_address__page"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
