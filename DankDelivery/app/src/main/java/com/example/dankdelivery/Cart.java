@@ -28,7 +28,6 @@ public class Cart extends AppCompatActivity {
         });
 
     }
-
     private void openStrainInformation() {
         Intent intent = new Intent(Cart.this, OrderPlaced.class);
         startActivity(intent);
