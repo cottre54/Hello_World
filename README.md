@@ -1,3 +1,3 @@
-# Hello_World
-# Hello_World
-# Hello_World
+# Now that recreational and medicinal use of marijuana is becoming a more prominent societal presence, we wanted to create a fun way to educate and connect people in our community. Our application allows users to view the available strains in their area and their effects on the body. If a strain seems particularly interesting to a user, they are then able to purchase an informational bookmark for $10 that will be delivered to them via one of our distributors. These bookmarks contain facts about the strain, including medicinal benefits, effects on the nervous system, and the origin of the strain itself. For each bookmark purchased, the user will also be gifted 1 gram of the associated strain.
+
+# The goal would be to have verified distributors opt to purchase and deliver the strain and much like Shipped Shopping or Grubhub deliveries, these verified distributors will receive payment for their service. These distributors would be background checked and provided bookmarks through our company. These trackable transactions would be a boost to the economy, provide many with a flexible job for and we would encourage people to not smoke and drive.
