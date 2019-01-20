@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".StrainInformation2"
-    tools:showIn="@layout/activity_strain_information2">
+    tools:context=".SdInformation"
+    tools:showIn="@layout/activity_sd_information">
 
     <TextView
         android:id="@+id/textView_Reviews"
@@ -14,25 +14,15 @@
         android:layout_height="22dp"
         android:layout_marginStart="29dp"
         android:layout_marginLeft="29dp"
-        android:layout_marginTop="158dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="283dp"
         android:layout_marginRight="283dp"
-        android:layout_marginBottom="290dp"
         android:text="Reviews"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_About" />
-
-    <TextView
-        android:id="@+id/textView_StrainName"
-        android:layout_width="353dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="88dp"
-        android:layout_marginBottom="70dp"
-        android:text="Strain Name"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_about" />
 
     <TextView
         android:id="@+id/textView_About"
@@ -40,19 +30,19 @@
         android:layout_height="22dp"
         android:layout_marginStart="29dp"
         android:layout_marginLeft="29dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="13dp"
         android:layout_marginEnd="283dp"
         android:layout_marginRight="283dp"
-        android:layout_marginBottom="30dp"
         android:text="About"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView_Reviews"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_StrainName" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
         android:id="@+id/imageView"
+
         android:layout_width="wrap_content"
         android:layout_height="155dp"
         android:layout_marginBottom="324dp"
@@ -62,7 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/gsc_weed" />
+        app:srcCompat="@drawable/sd" />
 
     <TextView
         android:id="@+id/textView_about"
@@ -71,7 +61,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="51dp"
         android:scrollbars="vertical"
-        android:text="GSC, formerly known as Girl Scout Cookies, is an OG Kush and Durban Poison hybrid cross whose reputation grew too large to stay within the borders of its California homeland. With a sweet and earthy aroma, GSC launches you to euphoria’s top floor where full-body relaxation meets a time-bending cerebral space. A little goes a long way with this hybrid, whose THC heights have won GSC numerous Cannabis Cup awards. Patients needing a strong dose of relief, however, may look to GSC for severe pain, nausea, and appetite loss."
+        android:text="Sour Diesel, sometimes called Sour D, is an invigorating sativa-dominant strain named after its pungent, diesel-like aroma. This fast-acting strain delivers energizing, dreamy cerebral effects that have pushed Sour Diesel to its legendary status. Stress, pain, and depression fade away in long-lasting relief that makes Sour Diesel a top choice among medical patients. This strain took root in the early 90's, and it is believed to have descended from Chemdawg 91 and Super Skunk."
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/textView_Reviews"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,20 +71,37 @@
 
     <Button
         android:id="@+id/checkout"
-        android:layout_width="97dp"
-        android:layout_height="48dp"
+        android:layout_width="123dp"
+        android:layout_height="63dp"
         android:layout_marginStart="299dp"
         android:layout_marginLeft="299dp"
         android:layout_marginTop="199dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginBottom="65dp"
-        android:text="Checkout"
+        android:text="Buy Bookmark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_about"
         app:layout_constraintVertical_bias="0.662" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginRight="302dp"
+        android:layout_marginBottom="8dp"
+        android:text="No reviews yet"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Reviews" />
+
 
 </android.support.constraint.ConstraintLayout>

@@ -2,8 +2,6 @@ package com.example.dankdelivery;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -71,17 +69,17 @@ public class StrainsNearYou extends AppCompatActivity {
     }
 
     private void openStrainInformation() {
-        Intent intent = new Intent(StrainsNearYou.this, StrainInformation.class);
+        Intent intent = new Intent(StrainsNearYou.this, SdInformation.class);
         startActivity(intent);
     }
 
     private void openStrainInformation1() {
-        Intent intent = new Intent(StrainsNearYou.this, StrainInformation1.class);
+        Intent intent = new Intent(StrainsNearYou.this, GSCInformation.class);
         startActivity(intent);
     }
 
     private void openStrainInformation2() {
-        Intent intent = new Intent(StrainsNearYou.this, StrainInformation2.class);
+        Intent intent = new Intent(StrainsNearYou.this, BdInformation.class);
         startActivity(intent);
     }
 

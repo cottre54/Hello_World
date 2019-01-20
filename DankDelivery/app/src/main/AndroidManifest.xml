@@ -26,12 +26,12 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".StrainInformation1"
+            android:name=".GSCInformation"
             android:label="@string/title_activity_strain_information1"
             android:parentActivityName=".StrainsNearYou"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".StrainInformation2"
+            android:name=".BdInformation"
             android:label="@string/title_activity_strain_information2"
             android:parentActivityName=".StrainsNearYou"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -44,7 +44,7 @@
         <activity
             android:name=".Cart"
             android:label="Cart"
-            android:parentActivityName=".StrainInformation"
+            android:parentActivityName=".SdInformation"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".OrderPlaced"
@@ -57,7 +57,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".StrainInformation"
+            android:name=".SdInformation"
             android:label="@string/title_activity_strain_information"
             android:parentActivityName=".StrainsNearYou"
             android:theme="@style/AppTheme.NoActionBar" />
