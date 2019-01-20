@@ -11,6 +11,8 @@
 
     <string name="title_activity_cart">Cart</string>
 
-    <string name="title_activity_order_placed">Order Placed</string>
+    <string name="title_activity_order_placed">OrderPlaced</string>
+    <string name="title_activity_strain_information2">StrainInformation2</string>
+    <string name="title_activity_strain_information1">StrainInformation1</string>
 
 </resources>

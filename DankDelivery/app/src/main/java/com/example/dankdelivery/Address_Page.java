@@ -5,11 +5,13 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.app.Dialog;
 import android.widget.Toast;
 import com.google.android.gms.common.ConnectionResult;
@@ -32,6 +34,7 @@ public class Address_Page extends AppCompatActivity {
     private static final String COARSE_LOCATION = Manifest.permission.ACCESS_COARSE_LOCATION;
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1234;
 
+    public static final String EXTRA_TEXT = "com.example.application.example.EXTRA_TEXT";
     //variables
     private boolean mLocationPermissionGranted = false;
     private GoogleMap mMap;
@@ -44,10 +47,13 @@ public class Address_Page extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("Sign in");
+
         configureNextButton();
         getLocationPermission();
-    }
 
+    }
     private void getDeviceLocation(){
         Log.d(TAG, "getDeviceLocation: getting device's current location");
 
@@ -60,7 +66,7 @@ public class Address_Page extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Address_Page.this, StrainsNearYou.class));
+                sendAddress();
             }
         });
 
@@ -152,5 +158,13 @@ public class Address_Page extends AppCompatActivity {
             }
         });
     }
+    public void sendAddress(){
+        EditText editText1 = (EditText) findViewById(R.id.text_Address);
+        String text = editText1.getText().toString();
+
+        Intent intent = new Intent(this, StrainsNearYou.class);
+        intent.putExtra(EXTRA_TEXT, text);
+        startActivity(intent);
+            }
 }
 

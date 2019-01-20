@@ -8,6 +8,7 @@
     tools:context=".StrainsNearYou"
     tools:showIn="@layout/activity_strains_near_you">
 
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -26,10 +27,12 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="88dp"
                 android:layout_marginRight="88dp"
-                android:text="Strains Near You"
-                android:textSize="36sp"
+                android:text="Strains Near "
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
