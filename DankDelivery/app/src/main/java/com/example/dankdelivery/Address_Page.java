@@ -48,7 +48,7 @@ public class Address_Page extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Sign in");
+        actionBar.setTitle("Location");
 
         configureNextButton();
         getLocationPermission();
