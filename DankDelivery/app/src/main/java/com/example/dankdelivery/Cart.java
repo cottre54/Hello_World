@@ -20,7 +20,7 @@ public class Cart extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Check");
+        actionBar.setTitle("Cart");
         Button checkout_btn = (Button)findViewById(R.id.button_Buy);
         checkout_btn.setOnClickListener(new View.OnClickListener(){
             @Override
